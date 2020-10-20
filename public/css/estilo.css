@@ -1,0 +1,100 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	
+
+}
+
+#conteudo{
+	padding: 15px 0px 15px 20px;
+}
+
+#header {
+    padding: 15px 0px 15px 20px;
+	text-align: center;
+	height: 80px;
+	background-color: whitesmoke;
+	color: purple;
+}
+
+#meio{
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+
+#l{
+	text-align: center;
+}
+
+#menu{
+	height: 80px;
+}
+
+#lista{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagem{
+	text-align: center;
+	background-color: whitesmoke;
+	
+}
+
+#imagem2{
+    width: 150px;
+    height: 150px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	padding: 15px 0px 15px 150px;
+	background:#B5B5B5;
+	height: 100%;
+}
+
+#menu li a:link, #menu li a:visited {
+		color:purple;
+        font-size: 1.1em;
+        padding: 5px 43px 0 43px;
+        font-weight: bold;
+    }
+
+#menu li a:hover, #menu li a:active {
+	text-decoration: none;
+	color:white;
+	font-size: 1.1em;
+	padding: 5px 43px 0 43px;
+	font-weight: bold;
+}
+
+#rodape {
+	clear: both;
+	height: 40px;
+	color: purple;
+	background-color: #B5B5B5;
+	padding: 15px 0px 15px 20px;
+	text-align: center;
+	position:absolute;
+    bottom:0;
+	width:100%;
+	font-weight: bold;
+}
+
+#fieldset
+{
+  background-color:#B5B5B5;
+}
+#legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
